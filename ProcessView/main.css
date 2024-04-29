@@ -8,16 +8,26 @@ body{
 }
 
 header{
+    height: 100%;
     width: 50%;
     float: left;
     background-color: #592B02;
+	justify-content: center;
+	align-items: center;
 }
 
 .login-fundo-logo{
     width: 100%;
+    margin: 0 auto;
+}
+
+.img-logo{
+    width: 100%;
+    margin:0 auto;
 }
 
 main{   
+    height: 100%;
     width: 50%;
     float: right;
     background-color: #a69281;
