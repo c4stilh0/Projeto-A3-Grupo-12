@@ -8,13 +8,20 @@
     </head>
     <body>
         <header>
-            <div class="login-fundo-logo">
-                <img class="img-logo" src="./img/logo.svg">
+            <div class="login-fundo">
+                <div class="login-fundo-logo">
+                    <img class="img-logo" src="./img/logo.svg">
+                </div>
+                <div class="login-fundo-texto">
+                    <p style="font-style: italic;font-size: 50px;text-align: center;">A solução completa para simplificar e otimizar a gestão da sua adovcacia e processos em um só lugar</p>
+                    <p style="font-style: italic;font-size: 50px;text-align: center;">Eficiência</p>
+                    <p style="font-style: italic;font-size: 50px;text-align: center;">Organização</p>
+                    <p style="font-style: italic;font-size: 50px;text-align: center;">Segurança</p>
+                </div>
+                <span class="login-fundo-botao">
+                    <button class="login-fundo-botao-cadastro">Cadastre-se</button>
+                </span>
             </div>
-            <div class="login-fundo-texto">
-                <p style="font-style: italic;font-size: 50px;text-align: center;">A gestão da sua adovcacia e processos em um só lugar</p>
-            </div>
-            <button class="login-fundo-botao-cadastro">Cadastre-se</button>
         </header>
 
         <main>
@@ -48,33 +55,55 @@
                         <h2>Bem vindo!</h2>
                     </div>
 
+                    <h5><span>Entre com sua conta:</span></h5>
+                    
                     <div class="login-formulario-content">
-                        <label for="usuario">Email</label>
-                        <input type="text" id="usuario" autocomplete="off">
+                        <label for="usuario">Email:</label>
+                        <input type="text" id="usuario" autocomplete="off" placeholder="Digite seu email">
                     </div>
 
                     <div class="login-formulario-content">
-                        <label for="senha">Senha</label>
-                        <input type="password" id="senha" autocomplete="off">
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" autocomplete="off" placeholder="Digite sua senha">
                     </div>
-
-                    <div class="login-formulario-botao-entrar">
-                        <input type="submit" value="Entrar" class="submit">
-                    </div>
-
+                    <div class="login-formulario-botao">
+                        <button class="login-formulario-botao-entrar">Entrar</button>
+                    </div> 
                     <div class="login-formulario-recuperar-senha">
                         <a href="#" class="recuperar-senha">Esqueci minha senha</a>
                     </div>
 
-                    <div class="login-formulario-redes">
-                        <div class="login-formulario-redes Google"><img src="./img/iconGoogle.svg"><a href="#">Login com Google</a></div>
-                        <div class="login-formulario-redes Facebook"><img src="./img/iconFacebook.svg"><a href="#">Login com Facebook</a></div>
-                        <div class="login-formulario-redes Appe"><img src="./img/iconApple.svg"><a href="#">Login com Apple</a></div>
-                        <div class="login-formulario-redes LinkedIn"><img src="./img/iconLinkedin.svg"><a href="#">Login com LinkedIn</a></div>
-                    </div>
+                    <h5><span>Ou entre com:</span></h5>
+                    
 
-                    <div class="login-formulario-cadastro">
-                        <h5>Não tem uma conta? <a href="#">Cadastre-se</a></h5>
+                    <div class="login-formulario-social">
+                        <div class="login-formulario-social-redes">
+                            <span class="login-formulario-social-redes-img">
+                                <img src="./img/iconGoogle.svg">
+                            </span>
+                            <p href="" class="login-formulario-social-redes-texto">Login com Google</p>
+                        </div>
+                        
+                        <div class="login-formulario-social-redes">
+                            <span class="login-formulario-social-redes-img">
+                                <img src="./img/iconFacebook.svg">
+                            </span>
+                            <p href="" class="login-formulario-social-redes-texto">Login com Facebook</p>
+                        </div>
+
+                        <div class="login-formulario-social-redes">
+                            <span class="login-formulario-social-redes-img">
+                                <img src="./img/iconApple.svg">
+                            </span>
+                            <p href="" class="login-formulario-social-redes-texto">Login com Apple</p>
+                        </div>
+
+                        <div class="login-formulario-social-redes">
+                            <span class="login-formulario-social-redes-img">
+                                <img src="./img/iconLinkedin.svg">
+                            </span>
+                            <p href="" class="login-formulario-social-redes-texto">Login com LinkedIn</p>
+                        </div>
                     </div>
                 </div>
             </div>

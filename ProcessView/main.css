@@ -1,53 +1,71 @@
 body{
     padding: 0;
     margin: 0;
-    width: 100%;
+    background-color: #592B02;
+    box-sizing: border-box;
+    height: 100vh;
+    font-family: 'Rockwell';
 }
 
-header{
-    height: 100%;
+.login-fundo{
     width: 50%;
+    height: 100vh;
+    margin:0 auto;
     float: left;
 	justify-content: center;
-	align-items: center;
     background-color: #592B02;
     
 }
 .login-fundo-logo{
     display: flex;
     margin:0 auto;
+    width: 100%;
 
 }
-
 .img-logo{
     display: flex;
     margin: 1% auto;
+    padding-top: 50px;
 }
 
-.login-fundo-botao-cadastro {
-	border-radius: 20px;
-	border: 1px solid #F2DA5E;
+.login-fundo-texto{
+    padding-top: 50px;
+    color: #fff;
+}
+
+
+login-fundo-botao{
+    margin: 0 auto;
+    display: flex;
+	justify-content: center;
+    width: 100%;
+}
+
+.login-fundo-botao-cadastro{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+	justify-content: center;
+    border-radius: 30px;
+    border: #F2DA5E;
 	background-color: #F2DA5E;
-	font-size: 12px;
-	font-weight: bold;
-	padding: 12px 45px;
+	font-size: 40px;
 	letter-spacing: 1px;
-	text-transform: uppercase;
 }
 
 main{   
-    height: 100%;
+    height: 100vh;
     width: 50%;
     float: right;
-    background-color:rgba(255,255,255,0.62);
+    background-color:rgba(255,255,255,0.8);
+    
 }
-
-
 
 .login-navegacao{
     width: 100%;
     display: flex;
     background-color: rgba(166,146,129,0.5);
+    
 }
 
 .bloco-navegacao{
@@ -55,31 +73,128 @@ main{
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    border: 1px solid black;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
 }
 
 .login-box{
     width: 50%;
-    height: 100%;
+    height: 85%;
     border-radius: 5px;
     background-color: rgba(166,146,129,0.5);
     display: flex;
     margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
     justify-content: center;
+    border: 1px solid grey;
+    
 }
 
 .login-formulario{
     height: 100%;
     width: 100%;
-    
 }
 
+.login-formulario-cabecalho{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
 
+h5 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid grey; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    font-size: 14px;
+ } 
+ 
+ h5 span { 
+     background: rgba(166,146,129,0.8); 
+     padding:0 10px; 
+ }
 
 .login-formulario-content{
-    height: 100%;
-}
-label{
+    font-size: 20px;
+    padding-top: 20px;
     width: 100%;
-    display: absolute;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label{
+    width: 50%;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+input{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid grey;
+    display: block;
+    border-radius: 5px;
+    height: 30px;
+    background-color: rgba(255,255,255);
+}
+
+.login-formulario-botao{
+    padding-top:30px;
+}
+
+.login-formulario-botao-entrar{
+    margin-top: 30px;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+	justify-content: center;
+    border-radius: 30px;
+    border: #f2b66d;
+	background-color: #f2b66d;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+
+.login-formulario-recuperar-senha{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.login-formulario-social{
+    padding-top: 10px;
+}
+
+.login-formulario-social-redes{
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color:rgb(255, 255, 255,0.8);
+    font-size: 14px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-formulario-social-redes-img{
+    border-radius: 10px 0 0 10px;
+    background-color:rgb(0, 0,0,0.2);
+}
+.login-formulario-social-redes-texto{
+    margin:0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
