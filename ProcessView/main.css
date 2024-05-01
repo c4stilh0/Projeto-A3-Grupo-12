@@ -1,11 +1,7 @@
 body{
-    top: 0;
-    left:0;
-    height: 100%;
+    padding: 0;
+    margin: 0;
     width: 100%;
-	justify-content: center;
-	align-items: center;
-    background-color: #592B02;
 }
 
 header{
@@ -14,48 +10,71 @@ header{
     float: left;
 	justify-content: center;
 	align-items: center;
+    background-color: #592B02;
+    
 }
 .login-fundo-logo{
     display: flex;
-    margin-top: 5%;
     margin:0 auto;
+
 }
 
 .img-logo{
     display: flex;
-    margin: 0 auto;
+    margin: 1% auto;
 }
+
+.login-fundo-botao-cadastro {
+	border-radius: 20px;
+	border: 1px solid #F2DA5E;
+	background-color: #F2DA5E;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
 main{   
     height: 100%;
     width: 50%;
     float: right;
+    background-color:rgba(255,255,255,0.62);
 }
 
-.login-box{
-    height: 100%;
-    border-radius: 20px;
-    background-color: #a69281;
-}
+
 
 .login-navegacao{
     width: 100%;
-    border-radius: 20px;
-    background-color: whitesmoke;
-}
-.login-navegacao-lista{
     display: flex;
-    list-style: none;
-    justify-content:space-between;
+    background-color: rgba(166,146,129,0.5);
+}
+
+.bloco-navegacao{
     width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.login-box{
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(166,146,129,0.5);
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .login-formulario{
     height: 100%;
     width: 100%;
-    display:flexbox;
-    border-radius: 20px;
-    background-color: whitesmoke
+    
 }
+
+
 
 .login-formulario-content{
     height: 100%;
